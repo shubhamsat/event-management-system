@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "Test@123"
+    },
+    {
+      "id": 2,
+      "name": "test2",
+      "email": "test2@gmail.com",
+      "password": "Test@1234"
+    }
+  ],
+  "events": [
+    {
+      "id": 9,
+      "user_id": "test@gmail.com",
+      "name": "User1",
+      "date": "2023-03-26",
+      "description": "Check Normal",
+      "price": "69",
+      "bookingType": "normal",
+      "termsAccepted": true
+    },
+    {
+      "id": 10,
+      "user_id": "test@gmail.com",
+      "name": "User2",
+      "date": "2023-03-18",
+      "description": "Userrrrrrrrrrrrrr",
+      "price": "8989",
+      "bookingType": "premium",
+      "termsAccepted": true
+    },
+    {
+      "id": 11,
+      "user_id": "test2@gmail.com",
+      "name": "Dancing",
+      "date": "2023-03-05",
+      "description": "Dancinggggggggggggggggggggg",
+      "price": "2690",
+      "bookingType": "premium",
+      "termsAccepted": true
+    },
+    {
+      "id": 12,
+      "user_id": "test2@gmail.com",
+      "name": "Main",
+      "date": "2023-03-18",
+      "description": "Hellkooo",
+      "price": "3131",
+      "bookingType": "normal",
+      "termsAccepted": true
+    },
+    {
+      "id": 13,
+      "user_id": "test2@gmail.com",
+      "name": "Premium booking",
+      "date": "2023-03-25",
+      "description": "Premium",
+      "price": "272772",
+      "bookingType": "premium",
+      "termsAccepted": true
+    }
+  ]
+}

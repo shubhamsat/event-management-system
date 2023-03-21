@@ -1,0 +1,57 @@
+.event-table {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #dddddd;
+}
+
+.form-group.radio-btn {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 200px;
+  align-items: center;
+}
+
+.form-group.terms {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-event {
+  background: #5e3f62;
+  border: 1px solid #5e3f62;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.events-form {
+  display: flex;
+  justify-content: center;
+}
+
+.events-form form {
+  width: 600px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 40px;
+}
