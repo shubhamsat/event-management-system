@@ -14,6 +14,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `json-server --watch db.json --port 4000`
+
+Run this command in a new terminal\
+Open [http://localhost:4000/users](http://localhost:4000/users) to view the users in your browser.
+
+Open [http://localhost:4000/events](http://localhost:4000/events) to view the events created by each user in your browser.
+
+The page will not reload when you make changes.\
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
