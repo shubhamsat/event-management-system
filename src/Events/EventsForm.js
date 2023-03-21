@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { createEvent, editEventEnd } from "../actions/index";
 import helperFxn from "../reducers/helper";
-// import axios from "axios";
 
 const EventsForm = (props) => {
   const [formData, setFormData] = useState({

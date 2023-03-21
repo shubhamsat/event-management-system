@@ -11,12 +11,12 @@ const LoginForm = () => {
 
   const emailHandler = (e) => {
     setEmail(e.target.value);
-    setIsValidEmail(true); // Reset error message
+    setIsValidEmail(true);
   };
 
   const passwordHandler = (e) => {
     setPassword(e.target.value);
-    setIsValidPassword(true); // Reset error message
+    setIsValidPassword(true);
   };
 
   function isEmailValid(email) {
